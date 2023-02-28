@@ -20,7 +20,7 @@ for url in urls:
     try:
         request = requests.get(url, headers=headers)
         if request.status_code != 200:
-            print("Error HTTP%s %s" % (str(request.status_code), url))
+            print("Error HTTP %s %s" % (str(request.status_code), url))
         if url_number % REPORT_EVERY == 0:
             print("Checked %s of %s URLs" % (url_number, number_of_urls))
         url_number += 1
