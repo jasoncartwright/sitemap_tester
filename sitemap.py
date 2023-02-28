@@ -26,3 +26,5 @@ for url in urls:
         url_number += 1
     except requests.exceptions.ConnectionError:
         print("Error connecting %s" % (url))
+
+print("Checked all %s URLs" % (number_of_urls, number_of_urls))
