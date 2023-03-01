@@ -4,8 +4,8 @@ When given a sitemap URL the script downloads the sitemap then requests every UR
 
 ## Usage
 
-```python3 sitemap.py URLOFSITEMAP```
+```sitemap.py URLOFSITEMAP```
 
 E.g.
 
-```python3 sitemap.py https://www.bbc.co.uk/sport/sitemap.xml```
+```sitemap.py https://www.bbc.co.uk/sport/sitemap.xml```
